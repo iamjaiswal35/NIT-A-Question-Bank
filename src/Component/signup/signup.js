@@ -36,36 +36,48 @@ function Signup() {
         </div>
         <div className='inbox'>
         <h2 className='sign-up'>Sign Up!!</h2>
-            
+            <div>
             <label className="font">
                 First name:
             </label>
             <input className="user" placeholder='First name' type="text" ></input>
+            </div>
             
+            <div>
             <label className="font">
                 Last name:
             </label>
             <input className="user" placeholder='Last name' type="text" ></input>
+            </div>
 
+            <div>
             <label className="font">
                 Enrollment no:
             </label>
             <input className="user" placeholder='Enrollment no' type="text" ></input>
+            </div>
 
+            <div>
             <label className="font">
                 Email address:
             </label>
             <input className="user" placeholder='Email address' type="text" ></input>
+            </div>
 
+            <div>
             <label className="font">
                 Phone no:
             </label>
             <input className="user" placeholder='Phone No' type="text" ></input>
+            </div>
 
+            <div>
             <label className="font">
                 Department:
             </label>
             <input className="user" placeholder='Department' type="text" ></input>
+            </div>
+
 
             <div className='bot'>
               <input type='button' className='button' value={"Sign up"} />

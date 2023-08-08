@@ -22,3 +22,8 @@
     bottom: 0;
     font-size: xx-large;
   }
+  .inbox input {
+    margin: 0.5rem;
+    display: flex;
+    
+  }
