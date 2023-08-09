@@ -1,6 +1,8 @@
 import './signup.css';
 import img from "../../nitalogo.png";
 import { useState } from 'react';
+import { GiHamburgerMenu } from "react-icons/gi";
+
 
 
 function Signup() {
@@ -31,48 +33,53 @@ function Signup() {
         <h2 className='timee'>Current Time : {hour}:{minute}:{second}  </h2>
 
       </div>
+      <div className='toolbar'>
+              <div className='threeline'>
+              <GiHamburgerMenu />
+              </div>
+          </div>
         <div>
         <img src={img} alt="logo" className="logo"/>
         </div>
-        <div className='inbox'>
+        <div className='inbo'>
         <h2 className='sign-up'>Sign Up!!</h2>
             <div>
-            <label className="font">
+            <label className="fontt">
                 First name:
             </label>
             <input className="user" placeholder='First name' type="text" ></input>
             </div>
             
             <div>
-            <label className="font">
+            <label className="fontt">
                 Last name:
             </label>
             <input className="user" placeholder='Last name' type="text" ></input>
             </div>
 
             <div>
-            <label className="font">
+            <label className="fontt">
                 Enrollment no:
             </label>
             <input className="user" placeholder='Enrollment no' type="text" ></input>
             </div>
 
             <div>
-            <label className="font">
+            <label className="fontt">
                 Email address:
             </label>
             <input className="user" placeholder='Email address' type="text" ></input>
             </div>
 
             <div>
-            <label className="font">
+            <label className="fontt">
                 Phone no:
             </label>
             <input className="user" placeholder='Phone No' type="text" ></input>
             </div>
 
             <div>
-            <label className="font">
+            <label className="fontt">
                 Department:
             </label>
             <input className="user" placeholder='Department' type="text" ></input>

@@ -17,8 +17,8 @@
   .container {
     
     width: 100%;
-    height: 848px;
-    background-image: url('../../bus.png');
+    height: 820px;
+    background-image: url('../../arrya.png');
     background-size: cover;
     background-position:  center;
     position: relative;
@@ -29,20 +29,19 @@
     width: 150px;
     margin: auto;
     display: flex;
-    padding-top: 30px;
+    padding-top: 20px;
     margin-bottom: 20px;
   }
   .inbox {
     background: rgb(255, 255,255,0.7);
     width: fit-content;
-    padding: 3rem;
     margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     border-radius: 20px;
-    
+    padding: 80px;
     
   }
   .intup-style {
@@ -69,7 +68,7 @@
     
   }
   .bot input {
-    margin: 0.7rem;
+    margin: 0.8rem;
   }
   .button {
     padding: 5px;
@@ -77,3 +76,26 @@
     font-weight: 500;
     font-size: medium;
   }
+  .sty {
+    color: red;
+  }
+  .toolbar {
+    display: flex; 
+    justify-content: flex-end; 
+    width: auto;
+    height:4rem;
+    background: rgba(255, 0, 0, 1); 
+    font-size: 2rem;
+    position: sticky;
+}
+
+  .threeline {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 14px;
+    padding-right: 10px;
+  }
+  .reg {
+    font-weight: 800;
+  }
+  
