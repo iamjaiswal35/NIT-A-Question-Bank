@@ -66,7 +66,6 @@ function Signin() {
             </div> 
               <div className='bot'>
               <input type='button' className='button' value={"Sign in"} />
-              <input type='button' className='button' value={"Sign up"}/>
               </div>
               <div>
                 <label className='reg'>New user? <Link to={"/signup"}> Register</Link></label>

@@ -1,0 +1,61 @@
+.back1 {
+    width: auto;
+    height: 51.25rem;
+    margin: auto;
+    background-image: url('../../bus.png');
+    background-size: cover;
+    background-position:  center;
+    position: relative;
+}
+
+.box {
+    background: rgb(255, 255,255,0.7);
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 280px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.box1, .box2, .box3, .box4 {
+    width: 65px;
+    height: 50px;
+    position: absolute;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.box1 {
+    top: 7rem;
+    left: 80px;
+    background-image: url('../../1yr.png');
+    background-size: cover;
+}
+
+.box2 { 
+    top: 7rem;
+    right: 80px;
+    background-image: url('../../sem.png');
+    background-size: cover;
+}
+
+.box3 {
+    bottom: 7rem;
+    left: 80px;
+    background-image: url('../../gate.png');
+    background-size: cover;
+}
+
+.box4 {
+    bottom: 7rem;
+    right: 80px;
+    background-image: url('../../upse.png');
+    background-size: cover;
+}
+.ready {
+    font-weight: 800;
+}

@@ -80,13 +80,12 @@
     color: red;
   }
   .toolbar {
-    display: flex; 
-    justify-content: flex-end; 
+    display: flex; /* Enable Flexbox layout */
+    justify-content: flex-end; /* Align items to the right */
     width: auto;
-    height:4rem;
-    background: rgba(255, 0, 0, 1); 
+    height: 4rem;
+    background: rgba(255, 0, 0, 1); /* Use rgba for transparent background */
     font-size: 2rem;
-    position: sticky;
 }
 
   .threeline {

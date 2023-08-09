@@ -2,6 +2,7 @@ import './signup.css';
 import img from "../../nitalogo.png";
 import { useState } from 'react';
 import { GiHamburgerMenu } from "react-icons/gi";
+import { Link } from 'react-router-dom';
 
 
 
@@ -59,6 +60,20 @@ function Signup() {
 
             <div>
             <label className="fontt">
+                Username:
+            </label>
+            <input className="user" placeholder='Username' type="text" ></input>
+            </div>
+
+            <div>
+            <label className="fontt">
+                 Password:
+            </label>
+            <input className="user" placeholder='Password' type="text" ></input>
+            </div>
+
+            <div>
+            <label className="fontt">
                 Enrollment no:
             </label>
             <input className="user" placeholder='Enrollment no' type="text" ></input>
@@ -78,16 +93,13 @@ function Signup() {
             <input className="user" placeholder='Phone No' type="text" ></input>
             </div>
 
-            <div>
-            <label className="fontt">
-                Department:
-            </label>
-            <input className="user" placeholder='Department' type="text" ></input>
-            </div>
 
 
             <div className='bot'>
               <input type='button' className='button' value={"Sign up"} />
+              </div>
+              <div>
+                <label className='logg'>Already Register? <Link to={"/login"}> login</Link></label>
               </div>
         </div>
       </div>
