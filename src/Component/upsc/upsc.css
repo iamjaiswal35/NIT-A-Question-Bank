@@ -1,0 +1,9 @@
+.upscback {
+    width: auto;
+    height: 47.28rem;
+    margin: auto;
+    background-image: url('../../upsc.jpg');
+    background-size: cover;
+    background-position:  center;
+    position: relative;
+}

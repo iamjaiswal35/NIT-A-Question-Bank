@@ -1,33 +1,30 @@
-import { useState } from 'react';
 import './firstpage.css';
 import { GiHamburgerMenu } from "react-icons/gi";
+import { useNavigate } from 'react-router-dom';
 
 
 
 function Firstpage() {
-    const init = new Date();
-    const [second,setSecond] = useState(init.getSeconds());
-    setInterval(() => {
-      const date = new Date();
-      setSecond(date.getSeconds());
-    },1000);
+    const navigate = useNavigate();
+    
   
-     const [minute,setMinute] = useState(init.getMinutes());
-    setInterval(() => {
-      const date = new Date();
-      setMinute(date.getMinutes());
-    },60000);
-  
-    const [hour,setHour] = useState(init.getHours());
-    setInterval(() => {
-      const date = new Date();
-      setHour(date.getHours());
-    },360000);
-  
+    const handleClick = () => {
+      navigate('/firstyr')
+    }
+    const botClick = () => {
+      navigate('/sem')
+    }
+    const handClick = () => {
+      navigate('/gate')
+    }
+    const lolClick = () => {
+      navigate('/upsc')
+    }
+
 
   return (
     <div className="first-page">
-      <div className='back1'>
+      <div className='back10'>
         <div className='toolbar'>
               <div className='threeline'>
               <GiHamburgerMenu />
@@ -37,19 +34,18 @@ function Firstpage() {
               <h2 className='ready'>
               ALL THE BEST 😇
               </h2>
-            <div className='box1'>
+            <div onClick={handleClick} className='box1'>
 
             </div>
             
-            <div className='box2'>
-            
+            <div onClick={botClick} className='box2'>
             </div>
 
-            <div className='box3'>
+            <div onClick={handClick} className='box3'>
 
             </div>
 
-            <div className='box4'>
+            <div onClick={lolClick} className='box4'>
 
             </div>
           </div>  

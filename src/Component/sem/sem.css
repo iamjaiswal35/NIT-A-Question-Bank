@@ -1,0 +1,9 @@
+.semback {
+    width: auto;
+    height: 47.28rem;
+    margin: auto;
+    background-image: url('../../sem1.png');
+    background-size: cover;
+    background-position:  center;
+    position: relative;
+}

@@ -1,0 +1,17 @@
+.innbox {
+    width: auto;
+    height: 47.28rem;
+    margin: auto;
+    background-image: url('../../gate.png');
+    background-size: cover;
+    background-position:  center;
+    position: relative;
+}
+.toolbr {
+    display: flex;
+    justify-content: flex-end;
+    width: auto;
+    height: 4rem;
+    background: rgba(8, 241, 229, 0.7);
+    font-size: 2rem;
+}

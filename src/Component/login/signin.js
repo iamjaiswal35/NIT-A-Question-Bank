@@ -51,6 +51,11 @@ function Signin() {
           <div className="inbox">
           <h2 className="sty" >National Institute of Technology Agartala</h2>
           <h2 className="sty">राष्ट्रीय प्रौद्योगिकी संस्थान अगरतला</h2>
+          <br/>
+          <h2>
+            Sign In!!
+          </h2>
+          <br/>
             <div className="intup-style">
               <label className="font">
                 Username:
@@ -69,6 +74,11 @@ function Signin() {
               </div>
               <div>
                 <label className='reg'>New user? <Link to={"/signup"}> Register</Link></label>
+                
+              </div>
+              <br/>
+              <div>
+                <label className='for'><Link to={"/forget"}> Forgotten password?</Link></label>
               </div>
             
           </div>

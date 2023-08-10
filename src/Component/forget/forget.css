@@ -1,0 +1,35 @@
+.innboox {
+    width: auto;
+    height: 51.25rem;
+    margin: auto;
+    background-image: url('../../forget.png');
+    background-size: cover;
+    background-position:  center;
+    position: relative;
+}
+.toolbr {
+    display: flex;
+    justify-content: flex-end;
+    width: auto;
+    height: 4rem;
+    background: rgba(8, 241, 229, 0.7);
+    font-size: 2rem;
+}
+.boxe {
+    
+    background: rgb(255, 255,255,0.7);
+    width: fit-content;
+    margin: auto;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 60px;
+    margin-top: center;
+      
+}
+.headingfot {
+    color:brown;
+}

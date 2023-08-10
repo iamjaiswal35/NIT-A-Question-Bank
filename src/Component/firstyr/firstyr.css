@@ -1,0 +1,9 @@
+.firstyrback {
+    width: auto;
+    height: 47.28rem;
+    margin: auto;
+    background-image: url('../../firstyear.png');
+    background-size: cover;
+    background-position:  center;
+    position: relative;
+}
